@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录-罗技商城</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+</head>
+<body>
+    <header class="header-box">
+        <div class="container">
+            <a class="logo" href="/"></a>
+        </div>
+        <div class="bg"></div>
+    </header>
+    <section class="login-main">
+            <div style='background: url(https://images.wincheers.net/UpLoad/Web/ProductImg/2018-06-01/NEW_XM/登陆.jpg) no-repeat center;height:100%;'>
+                <a style='display:block; height:100%;' href='https://store.logitech.com.cn/product/pointindex/' target='_blank' ></a>
+            </div>
+    
+        <div class="login-box">
+            <h4 class="login-title"><span class="name">账户登录</span><a class="link-a" href="/Customer/UserRegistration">手机快速注册></a> </h4>
+            <div class="login-error-info" style="display:none">
+                <i class="icon-error"></i><span id="err"></span>
+            </div>
+            <div id="LoginFrom" class="login-form">
+                <div class="form-list ">
+                    <input class="input-text" placeholder="手机号/邮箱/账户名" value="" id="txtCustomerID" type="text" />
+                    <i class="icon-login-user"></i>
+                    <i class="icon-close"></i>
+                </div>
+                <div class="form-list">
+                    <input class="input-text" placeholder="密码" value="" id="txtPassword" type="password" />
+                    <i class="icon-login-password"></i>
+                    <i class="icon-close"></i>
+                </div>
+                <div id="c1"></div>
+                <div class="form-list">
+                    <input class="input-yzm" style="width: 100%;height:100%;border:0px;padding-left:15px" placeholder="请输入验证码" id="txtYXYZM" type="text" autocomplete="off" />
+                    <img id="imgcode" alt="验证码" width="95" height="41" src="/Customer/Coptcha?CaptchaCode=LgCaptchaCode" style="position:absolute;right:0px;top:0px" onclick="CheckCaptcha()" />
+    
+                </div>
+            </div>
+            <div>
+                <p class="login-tool">
+                    <label class="label-check"><input type="checkbox" />自动登录</label>
+                    <a class="link-a" href="/Customer/RetrievePassword">忘记密码</a>
+                </p>
+                <a class="user-default-btn" href="javascript:void(0);">登     录</a>
+            </div>
+            <div class="other-login">
+                <label class="label-text">其他方式登陆：</label>
+                <a class="icon-login-wx" title="微信" href="javascript:void(0);" id="linkBtnLgWX"></a>
+                <a class="icon-login-qq" title="QQ" href="javascript:void(0);" id="linkBtnLgQQ"></a>
+            </div>
+        </div>
+    
+    </section>
+    <footer class="footer-box">
+        <div class="container">
+            <p>罗技官方商城由罗技（中国）科技有限公司授权双齐国际贸易（上海）有限公司负责经营 2016 , all rights reserved</p>
+            <p>
+                <a href="https://www.logitech.com.cn/zh-cn" target="_blank">罗技官方网站</a>
+                <a href="/help/Contact" target="_blank">联系方式</a>
+                <a href="/help/Privacy" target="_blank">隐私声明</a>
+                <a href="/help/Agreement" target="_blank">用户服务协议</a>
+                <a href="https://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank">沪ICP备10200262号</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

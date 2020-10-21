@@ -1,0 +1,384 @@
+
+/* 详情页主体 */
+/* 产品信息 */
+section {
+    display: block;
+}
+.product-goods-box {
+    background: #f8f8f8;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.product-goods-box .container {
+    position: static;
+}
+.product-goods {
+    position: static;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    height: 523px;
+}
+.goods-img-box {
+    float: left;
+    width: 430px;
+    /* height: 462px; */
+}
+.goods-img-box .big-img {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.goods-img-box .big-img img {
+    display: block;
+    margin: 35px auto;
+    width: 380px;
+    height: 380px;
+}
+/* 下排小图列表 */
+.goods-img-box .small-img-list {
+    position: relative;
+    width: 380px;
+    height: 62px;
+    margin: 10px auto;
+}
+.goods-img-box .small-img-list .slider-btn.left-btn {
+    left: 0;
+    background: url(../images/icon-product-btn-left.jpg) no-repeat;
+}
+.goods-img-box .small-img-list .slider-btn.right-btn {
+    right: 0;
+    background: url(../images/icon-product-btn-right.jpg) no-repeat;
+}
+.goods-img-box .small-img-list .slider-btn {
+    position: absolute;
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    top: 50%;
+    margin-top: -10px;
+}
+.small-img-list-con {
+    position: relative;
+    height: 64px;
+    width: 310px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+}
+.goods-img-box .small-img-list .list-ul {
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300%;
+}
+.goods-img-box .small-img-list .list-ul li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 62px;
+    z-index: 1;
+    cursor: pointer;
+    /* margin-right: -1px; */
+}
+.goods-img-box .small-img-list .list-ul li img {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #e9e9e9;
+}
+.goods-img-box .small-img-list .list-ul li.active {
+    z-index: 2;
+}
+.goods-img-box .small-img-list .list-ul li.active img {
+    border: 1px solid #ff790f;
+}
+/* 中间产品信息 */
+.goods-text-box {
+    /* height: 470px; */
+    float: left;
+    width: 510px;
+    margin-top: 15px;
+    padding: 8px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+}
+.goods-text-box .product-title {
+    color: #2e2e2e;
+    font-size: 18px;
+    font-family: "SimSun", Verdana, Arial;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+.goods-text-box .product-detail-p {
+    color: #b8b8b8;
+    line-height: 22px;
+    padding-left: 15px;
+}
+.goods-text-box .product-info-box {
+    /* height: 177px; */
+    background: #f7f7f7;
+    padding: 10px 20px;
+    margin-top: 15px;
+    /* overflow: hidden; */
+    zoom: 1;
+    padding-right: 0px;
+}
+.qrCode {
+    position: absolute;
+    top: 11px;
+    right: 13px;
+}
+.qr-img {
+    position: relative;
+}
+.qr-content {
+    position: absolute;
+    top: 47px;
+    left: -3px;
+    display: none;
+    width: 134px;
+    height: 184px;
+    background: rgba(255,255,255,1);
+    border: 1px solid rgba(224,224,224,1);
+    padding: 0px;
+}
+.arrow-up {
+    position: absolute;
+    width: 0;
+    top: -12px;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+    left: 6px;
+}
+.qr-content .img {
+    padding: 12px 12px 8px 12px;
+}
+.qr-content div img {
+    width: 100%;
+}
+.qr-content p {
+    color: #333;
+    font-size: 14px;
+    padding: 0 18px 19px;
+}
+.goods-text-box .p1 {
+    padding-bottom: 5px;
+    height: 30px;
+    line-height: 30px;
+}
+.goods-text-box .label-text {
+    float: left;
+    color: #797979;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 60px;
+    text-align: right;
+}
+.goods-text-box .sale-super-price {
+    float: left;
+    color: #797979;
+    font-family: "SimSun", Verdana, Arial;
+    text-decoration: line-through;
+}
+.goods-text-box .sale-price {
+    float: left;
+    color: #ff0101;
+    font-size: 24px;
+    font-family: "SimSun", Verdana, Arial;
+}
+.goods-text-box .send-box {
+    height: 45px;
+    padding-top: 10px;
+    margin-top: 5px;
+    border-top: 1px solid #eaeaea;
+}
+.goods-text-box .label-text {
+    float: left;
+    color: #797979;
+    line-height: 30px;
+    margin-right: 10px;
+    width: 60px;
+    text-align: right;
+}
+.goods-text-box .send-box .img-wrap {
+    display: inline;
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+.goods-text-box .send-box .text-wrap {
+    float: left;
+    margin-left: 10px;
+    line-height: 45px;
+}
+.goods-text-box .send-box .text-wrap a:hover, .goods-text-box .send-box .text-wrap a {
+    color: #919191;
+}
+.goods-text-box .check-color-box {
+    padding-left: 15px;
+    height: 44px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.goods-text-box .check-color-list {
+    float: left;
+    width: 400px;
+}
+.goods-text-box .check-color-list li {
+    float: left;
+    width: 44px;
+    height: 44px;
+    margin-right: 20px;
+}
+.goods-text-box .check-color-list li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #f2f2f2;
+}
+.goods-text-box .check-color-list li img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* 立即购买 */
+.goods-text-box .buy-box {
+    padding-left: 15px;
+    margin-top: 25px;
+    height: 40px;
+}
+.goods-text-box .buy-number-box {
+    float: left;
+}
+.goods-text-box .buy-number-box .add-btn, .goods-text-box .buy-number-box .cut-btn {
+    float: left;
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #000;
+    margin-right: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.goods-text-box .buy-number-box input {
+    float: left;
+    height: 20px;
+    width: 35px;
+    text-align: center;
+    border: 1px solid #b5b5b5;
+    margin-top: 5px;
+}
+.goods-text-box .buy-number-box .add-btn {
+    margin-left: 15px;
+}
+.goods-text-box .buy-box .sale-number {
+    float: left;
+    line-height: 30px;
+    color: #d73535;
+}
+.goods-text-box .buy-box .sale-number {
+    float: left;
+    line-height: 30px;
+    color: #d73535;
+}
+.goods-text-box .buy-box .sale-numberkc {
+    float: left;
+    line-height: 30px;
+    color: #878787;
+}
+.goods-text-box .buy-box .product-add-cart-btn {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.goods-text-box .buy-box .sale-numberkc {
+    float: left;
+    line-height: 30px;
+    color: #878787;
+}
+.goods-text-box .buy-box .product-add-cart-btn {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+.product-add-cart-btn {
+    display: inline-block;
+    font-family: "SimSun", Verdana, Arial;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    width: 172px;
+    height: 42px;
+    line-height: 42px;
+    background: #FF6861;
+    margin-left: 20px;
+}
+
+/* 右侧礼包盒子 */
+.goods-server-box {
+    float: right;
+    width: 210px;
+    padding: 15px;
+}
+.goods-server-box .p-title {
+    line-height: 25px;
+    height: 25px;
+    color: #838383;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.goods-server-box .privilege-list {
+    height: 80px;
+    margin-left: -5px;
+}
+.goods-server-box .privilege-list li {
+    float: left;
+    width: 64px;
+    text-align: center;
+    line-height: 30px;
+    color: #737272;
+    margin-right: 5px;
+}
+.goods-server-box .privilege-list li img {
+    display: block;
+    width: 46px;
+    height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.goods-server-box .servers-box {
+    margin-bottom: 45px;
+}
+.goods-server-box .servers-box label {
+    display: inline-block;
+    height: 22px;
+    color: #a4a4a4;
+    width: 100px;
+    margin-bottom: 15px;
+    line-height: 22px;
+}
+.goods-server-box .servers-box label i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 22px;
+}
+.goods-server-box .servers-box label i img {
+    float: left;
+    display: block;
+    vertical-align: middle;
+}
