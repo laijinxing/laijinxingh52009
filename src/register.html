@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/register.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <script src="./lib/jquery/jquery.min.js"></script>
 </head>
 <body>
     <header class="header-box">
@@ -27,51 +28,22 @@
                 <li class="list ">
                     <div class="from-div-list ok">
                         <label class="label-text">手 机 号</label>
-                        <input class="input-text" placeholder="建议使用常用手机" id="txtCellPhone" maxlength="11" type="text" />
+                        <input class="input-text" placeholder="建议使用常用手机" id="txtCellPhone" maxlength="11" type="text" name="user"/>
                         <i class="icon-ok"></i>
                     </div>
                     <div class="info" id="PhoneInfo"></div>
                 </li>
                 <li class="list ">
-                    <div class="from-div-list ok">
-                        <label class="label-text">验 证 码</label>
-                        <input class="input-yzm" style="width: 100%;height:100%;border:0px;padding-left:115px;font-size:14px" placeholder="请输入验证码" maxlength="5" id="txtYXYZM" type="text" />
-                        <img id="imgcode" alt="验证码" width="95" height="55" src="/Customer/Coptcha?CaptchaCode=LgCaptchaCode" style="position:absolute;right:0px;top:0px" onclick="CheckCaptcha()" />
-                        <i class="icon-ok"></i>
-                    </div>
-                    <div class="info" id="Div1"></div>
-                </li>
-                <!-- 手机验证码 -->
-                <!-- <li class="list error">
-                    <div class="from-div-list">
-                        <label class="label-text">手机验证码</label>
-                        <input class="input-text " id="txtYZM" placeholder="请输入手机验证码"  maxlength="6" type="text" />
-                        <i class="icon-ok" style="right:100px;"></i>
-                        <a class="get-code" href="#" id="getZYM">获取验证码</a>
-                    </div>
-                    <div class="info" id="errs" style="display:none">如果未收到，请再点击获取验证码，重新获取</div>
-                </li> -->
-                <li class="list ">
                     <div class="from-div-list">
                         <label class="label-text">设置密码</label>
-                        <input class="input-text" placeholder="建议至少两种字符组合" maxlength="20" id="pwd" type="password" />
+                        <input class="input-text" placeholder="建议至少两种字符组合" maxlength="20" id="pwd" type="password" name="pwd"/>
                         <i class="icon-ok"></i>
                     </div>
                     <div class="info"></div>
-                     
-                    <!-- info-password q =>强; info-password z =>中; info-password l =>低; -->
-                </li>
-                <li class="list ok">
-                    <div class="from-div-list">
-                        <label class="label-text">确认密码</label>
-                        <input class="input-text" placeholder="请再输入密码" id="password" maxlength="20" type="password" />
-                        <i class="icon-ok" id="oks" style="display:none"></i>
-                    </div>
-                    <div class="info">两次密码输入不一致</div>
                 </li>
             </ul>
-            <p class="check-p"><label class="label-text"><input type="checkbox" checked="checked" id="ck" />我已经认证阅读<a href="/help/Agreement">《用户服务协议》</a> ，并完全同意协议中的所有条款。</label></p>
-            <a class="user-default-btn" href="javascript:void(0);" onclick="RegisterCustomer()">立即注册</a>
+            <p class="check-p"><label class="label-text"><input type="checkbox" checked="checked" id="ck" name="agree"/>我已经认证阅读<a href="#">《用户服务协议》</a> ，并完全同意协议中的所有条款。</label></p>
+            <a class="user-default-btn" href="javascript:void(0);">立即注册</a>
         </aside>
     </section>
     <footer class="footer-box">
@@ -86,5 +58,6 @@
             </p>
         </div>
     </footer>
+    <script src="./js/register.js"></script>
 </body>
 </html>

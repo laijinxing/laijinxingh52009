@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/detail.css">
     <link rel="stylesheet" href="css/pubulic.css">
     <link rel="shortcut icon" href="./images/favicon.ico">
+    <script src="./lib/jquery/jquery.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
                     <i class="icon-account"></i>我的账户</a>
                 <span class="f-l">|</span>
                 <div class="user-cart">
-                    <a class="user-a" href="#">
+                    <a class="user-a" href="./shoppingcart.html">
                         <i class="icon-cart">
                         </i>购物车
                     </a>
@@ -230,47 +231,32 @@
             <div class="product-goods container">
                 <div class="goods-img-box">
                     <div id="productBigImg" class="big-img">
-                        <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XL/G502-01.png" jqimg="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XL/G502-01.png"
+                        <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XL/G502-01.png" 
                             alt="罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】">
+                        <div id="mask"></div>
                     </div>
+                    <div id="big"><img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XL/G502-01.png" alt=""></div>
                     <div class="small-img-list">
                         <a class="slider-btn left-btn" href="javascript:void(0);"></a>
                         <a class="slider-btn right-btn" href="javascript:void(0);"></a>
                         <div class="small-img-list-con">
                             <ul class="list-ul" id="Productsmall">
-                                <li class="active">
-                                    <img width="59" height="58" bimg="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-01.png" src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-01.png"
-                                        onerror="javascript:this.src='/images/picerror.jpg';" alt="罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】">
-                                </li>
-                                <li>
-                                    <img width="59" height="58" bimg="https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XM/G502主宰者.png" src="https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XM/G502主宰者.png"
-                                        onerror="javascript:this.src='/images/picerror.jpg';" alt="罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】">
-                                </li>
-                                <li>
-                                    <img width="59" height="58" bimg="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-02.png" src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-02.png"
-                                        onerror="javascript:this.src='/images/picerror.jpg';" alt="罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】">
-                                </li>
-                                <li>
-                                    <img width="59" height="58" bimg="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-03.png" src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-03.png"
-                                        onerror="javascript:this.src='/images/picerror.jpg';" alt="罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】">
-                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="goods-text-box">
-                    <h1 class="product-title">罗技 G502 HERO主宰者有线游戏鼠标【限量送格鲁特摇头公仔】</h1>
                     <p class="product-detail-p">
                         全新升级 高性能传感器 </p>
                     <div class="product-info-box">
                         <div class="qrCode">
                             <div class="qr-img">
-                                <img src="/images/icon-qrcode.png">
+                                <!-- <img src="/images/icon-qrcode.png"> -->
                                 <div class="qr-content">
                                     <div class="arrow-up">
                                     </div>
                                     <div class="img">
-                                        <img src="/images/qrcode.jpg">
+                                        <!-- <img src="/images/qrcode.jpg"> -->
                                     </div>
                                     <p>微信扫一扫进入手机价优惠专场</p>
                                 </div>
@@ -279,119 +265,12 @@
                         </div>
                         <p class="p1">
                             <label class="label-text">官&nbsp;方&nbsp;价：</label>
-                            <span class="sale-super-price">￥499.00</span>
+                            <span class="sale-super-price">￥99999.00</span>
                         </p>
                         <p class="p1">
                             <label class="label-text">商&nbsp;城&nbsp;价：</label>
                             <span class="sale-price" id="spLimiPrice">&nbsp;￥499.00</span>
                         </p>
-
-
-
-
-
-                        <meta charset="UTF-8">
-                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                        <title></title>
-                        <link rel="stylesheet" href="/Content/reset.css">
-                        <link rel="stylesheet" href="/Content/productChange.css?time=20190410">
-                        <link href="/Content/logins.css" rel="stylesheet">
-                        <script src="/Scripts/html5shiv.min.js"></script>
-
-
-                        <script src="/Scripts/jquery-1.11.1.min.js"></script>
-                        <script>
-
-                            $(function () {
-
-
-                                //鼠标悬停展示套餐
-                                $('.package-list').children('li').hover(function () {
-                                    $(this).addClass('active');
-                                }, function () {
-                                    $(this).removeClass('active');
-                                });
-
-
-
-                                slider();
-
-
-
-                            });
-                            //购买套餐
-                            function BuySetMeal(id) {
-                                $("#Type").val(id);
-                                $.ajax({
-                                    url: "/Base/CheckLogin",
-                                    cache: false,
-                                    type: "Get",
-                                    success: function (returnVaule) {
-                                        if (returnVaule == "no") {
-                                            $.layer({
-                                                type: 1,
-                                                title: false,
-                                                shade: 0,
-                                                area: ['auto', '500px'],
-                                                page: { dom: '#LoginAlerts' }
-                                            });
-                                            return;
-                                        } else {
-                                            $.post("/Package/PlaceOrders", { "PakcageId": id, "PackageType": 2 }, function (data) {
-                                                if (data == "ok") {
-                                                    location.href = "/Trade/CheckOutOrder";
-                                                } else if (data == "ErrLog") {
-                                                    location.href = "/Customer/UserLogin?drUrl=" + location.href;
-                                                } else {
-                                                    layer.msg("提交错误,请联系客服！");
-                                                }
-                                            })
-                                        }
-                                    }
-                                })
-                            }
-                            function slider() {
-                                var $_sliderBox = $('.package-list-slider');
-                                $_sliderBox.each(function () {
-                                    var $_sliderList = $(this).find('.package-product-list');
-                                    var $_btnPrev = $(this).find('.prev');
-                                    var $_btnNext = $(this).find('.next');
-                                    var len = $_sliderList.children('li').length;
-                                    var index = 0, canSliderLen = len - 3;
-                                    var width = 136;
-                                    var animateSlider = function (inndex) {
-                                        $_sliderList.animate({
-                                            left: -(index * width)
-                                        }, 500)
-                                    };
-
-                                    //console.log(len-1);
-                                    if (canSliderLen <= 0) {
-                                        $_btnPrev.hide();
-                                        $_btnNext.hide();
-                                        // return false;
-                                    } else {
-                                        $_btnPrev.click(function () {
-                                            index = index - 1 <= 0 ? 0 : index - 1;
-                                            animateSlider(index);
-                                            return false;
-                                        });
-                                        $_btnNext.click(function () {
-                                            index = index + 1 >= canSliderLen ? canSliderLen : index + 1
-                                            animateSlider(index);
-                                            return false;
-                                        });
-                                    }
-
-                                })
-
-                            }
-
-                        </script>
-                        <script src="/Scripts/cookie_js/tongji.js?time=20190308-1"></script>
-
-
-
                         <div class="send-box">
                             <label class="label-text">赠&nbsp;&nbsp;&nbsp;&nbsp;品：</label>
 
@@ -404,7 +283,7 @@
                                 </div>
                                 <div class="text-wrap">
 
-                                    <a href="javascript:void(0);" target="_blank">【赠品】漫威摇头公子（格鲁特）</a>
+                                    <a href="#" target="_blank">【赠品】漫威摇头公子（格鲁特）</a>
                                 </div>
                             </div>
                         </div>
@@ -413,53 +292,50 @@
                         <div class="check-color-box hide" id="diva" style="display: block;">
                             <label class="label-text">可选型号：</label>
                             <ul class="check-color-list" id="ula">
-                                <li class="active">
-                                    <a id="140" href="/pro/proDetail/5471" title="G502主宰者">
+                                <!-- <li class="active">
+                                    <a id="140" href="#" title="G502主宰者">
                                         <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2018-10-24/NEW_XM/G502.jpg" alt="G502主宰者">
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a id="148" href="/pro/proDetail/5407" title="G502+G610+G533">
+                                    <a id="148" href="#" title="G502+G610+G533">
                                         <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2018-11-01/NEW_XM/g50222.jpg" alt="G502+G610+G533">
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a id="149" href="/pro/proDetail/5404" title="G502+G640">
+                                    <a id="149" href="#" title="G502+G640">
                                         <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2018-10-28/NEW_XM/G502G640.jpg" alt="G502+G640">
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a id="150" href="/pro/proDetail/5403" title="G502+G910">
+                                    <a id="150" href="#" title="G502+G910">
                                         <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2018-10-28/NEW_XM/G502G910.jpg" alt="G502+G910">
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a id="324" href="/pro/proDetail/5703" title="G502无线版">
+                                    <a id="324" href="#" title="G502无线版">
                                         <img src="https://images.wincheers.net/UpLoad/Web/ProductImg/2019-05-29/NEW_XM/G502wx.png" alt="G502无线版">
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
 
                         <div class="buy-box">
                             <label class="label-text">购买数量：</label>
                             <div class="buy-number-box">
-                                <a href="javascript:void(0);" class="cut-btn" onclick="SetCount(-1)">-</a>
-                                <input value="1" id="txtCount" type="text" onkeyup="this.value=this.value.replace(/[^\d]/g,'')">
-                                <a href="javascript:void(0);" class="add-btn" onclick="SetCount(1)">+</a>
+                                <a href="#" class="cut-btn" >-</a>
+                                <input value="1" id="txtCount" type="text">
+                                <a href="#" class="add-btn">+</a>
                             </div>
-                            <span class="sale-number" id="spSold" style="margin-right:5px">已售
+                            <span class="sale-number"style="margin-right:5px">已售
                                 <span>34</span>件</span>
-                            <span class="sale-numberkc" style="display:none">库存
-                                <span id="spnum" style="color:red" data-id="133"></span>件</span>
-                            <a class="product-add-cart-btn" onclick="Within(this)" id="5471" href="javascript:void(0);">立即购买</a>
-
+                            <a class="product-add-cart-btn"href="#">加入购物车</a>
                         </div>
                     </div>
                 </div>
                 <div class="goods-server-box">
                     <p>
-                        <a href="/Customer/UserRegistration" id="addRegistration">
+                        <a href="#" id="addRegistration">
                             <img src="https://store.logitech.com.cn/images/xq.gif" id="imggif">
                         </a>
                     </p>
@@ -602,7 +478,7 @@
                     </div>
                 </aside>
             </footer>
-
+    <script src="./js/Zoom.js"></script>
     <script src="./js/detail.js"></script>
     <!-- 公共JS区域 -->
     <script src="./js/showlist.js"></script>

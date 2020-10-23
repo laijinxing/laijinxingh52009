@@ -24,7 +24,7 @@
     height: 11px;
     background: url(../images/header-bg.png) repeat-x;
 }
-/* 注册表单 */
+
 .register-box {
     width: 400px;
     margin: 40px auto;
@@ -48,6 +48,31 @@
 }
 .register-title .right-text a {
     color: #2369aa;
+}
+.check-p {
+    color: #9c9c9c;
+    font-size: 12px;
+    margin-bottom: 23px;
+}
+.check-p input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 8px;
+}
+.check-p a {
+    color: #9c9c9c;
+}
+.user-default-btn {
+    display: block;
+    text-align: center;
+    border: 0;
+    height: 47px;
+    line-height: 47px;
+    background: #ff3736;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Source Han Sans CN", Verdana, Arial;
 }
 .from-group-ul .list {
     position: relative;
@@ -84,7 +109,7 @@
     top: 100%;
     display: none;
 }
-/* 底部部分 */
+
 .footer-box {
     font-family: "simsun", Verdana, Arial;
     font-size: 12px;
@@ -101,4 +126,14 @@
     color: #7f7f7f;
     margin-left: 3px;
     margin-right: 3px;
+}
+.user-default-btn:active,
+.user-default-btn:focus,
+.user-default-btn:hover{
+    text-decoration: none;
+    background-color: #ff4d4c;
+}
+.user-default-btn.inline{
+    display: inline-block;
+    width: 193px;
 }

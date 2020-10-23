@@ -1,23 +1,179 @@
-[{"goods": {
-    "1020": {
-        "number": "282",
-        "name": ["数码家电", "厨房家电"],
-        "list": [{
-                "member": "会员日",
-                "id": "1021",
-                "img": "158798116969528709223926912607-resize.jpg",
-                "name": "Malata万利达多功能电热饭盒WLD-FH201",
-                "price": "91.90",
-                "evaluate": { "star": "0", "eval": "暂无评价" }
+        [
+            {
+                "sold":"886",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XL/09.png",
+                "name": "罗技G304 LIGHTSEED无线游戏鼠标 蓝色",
+                "price": "349",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XM/09.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XM/06.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XM/05.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XM/07.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-09-02/NEW_XM/08.png"
+                ]
             },
             {
-                "id": "1022",
-                "img": "158927207959630000069466519732-resize.jpg",
-                "name": "韩国现代（HYUNDAI）便携式榨汁机 果汁机",
-                "price": "119.90",
-                "evaluate": { "star": "0", "eval": "暂无评价" }
+                "sold":"23",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-01-min.png",
+                "name": "罗技G102二代LIGHTSYHC游戏鼠标 黑色",
+                "price": "149",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-01-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-02-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-04-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-03-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3%20%E9%BB%91-05-min.png"
+                ]
+            },
+            {
+                "sold":"232",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-01.png",
+                "name": "罗技G304 LIGHTSEED无线游戏鼠标 蓝色",
+                "price": "149",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-01.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-04.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-02.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-03.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G102%E4%BA%8C%E4%BB%A3-%E7%99%BD-05.png"
+                ]
+            },
+            {
+                "sold":"231",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XL/g604.png",
+                "name": "罗技G102二代LIGHTSYHC游戏鼠标 黑色",
+                "price": "149",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XM/g604.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G604-01-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G604-02-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/G604-03-min.png"
+                ]
+            },
+            {
+                "sold":"22",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/mk518-01%20.png",
+                "name": "罗技MX518有线电竞游戏鼠标",
+                "price": "239",
+                "imgarr": [
+                ]
+            },
+            {
+                "sold":"16",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/g502%E6%97%A0%E7%BA%BF-01-min.png",
+                "name": "罗技G502LIGHTSPEED创世者无线游戏鼠标",
+                "price": "999",
+                "imgarr": [
+                ]
+            },
+            {
+                "sold":"99",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/g703-01-min.png",
+                "name": "罗技G703 LIGHTSPEED 无线游戏鼠标 新一代ERO传感器",
+                "price": "629",
+                "imgarr": [
+                ]
+            },
+            {
+                "sold":"82",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/g903-01-min.png",
+                "name": "罗技G903 LIGHsPEED无线游戏鼠标 新一代HER0传感器",
+                "price": "899",
+                "imgarr": [
+                ]
+            },
+            {
+                "sold":"116",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/mk518-01%20.png",
+                "name": "罗技MX518有线电竞游戏鼠标",
+                "price": "399",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/mk518-02%20.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/mk518-04%20.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/mk518-03%20.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/mk518-01%20.png"
+                ]
+            },
+            {
+                "sold":"96",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-09/NEW_XL/G913TKL-G502%E4%B8%BB%E5%AE%B0%E8%80%85.png",
+                "name": "罗技G913 TK无线机械键盘(GL-C1i eky)+G502主宰者游戏鼠标",
+                "price": "2098",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-09/NEW_XM/G913TKL-G502%E4%B8%BB%E5%AE%B0%E8%80%85.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-05-26/NEW_XM/g913kl-1.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-07-02/NEW_XM/G502-01.png"
+                ]
+            },
+            {
+                "sold":"136",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XL/g703-01-min.png",
+                "name": "罗技G703 LIGhTSPEED无线游戏鼠标 新一代ER0传感器",
+                "price": "699",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g703-01-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g703-02-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g703-03-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g703-04-min.png"
+                ]
+            },
+            {
+                "sold":"90",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XL/G502%E6%97%A0%E7%BA%BF.png",
+                "name": "罗技G502 LIGHTSPEED创世者无线游戏鼠标[限量送格鲁特摇头公仔]",
+                "price": "1099",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g502%E6%97%A0%E7%BA%BF-01-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g502%E6%97%A0%E7%BA%BF-02-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-29/NEW_XM/g502%E6%97%A0%E7%BA%BF-03-min.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XM/G502%E6%97%A0%E7%BA%BF.png"
+                ]
+            },
+            {
+                "sold":"433",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-03-13/NEW_XL/cd-pro.png",
+                "name": "罗技G PRD无线鼠标+充电鼠标垫",
+                "price": "1849",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-03-13/NEW_XM/cd-pro.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-03-13/NEW_XM/GPowerPlay-01.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-03-13/NEW_XM/pros-01.png"
+                ]
+            },
+            {
+                "sold":"211",
+                "img": "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XL/G502-01.png",
+                "name": "罗技G502 HER0主宰者有线游戏鼠标[限里送格魯特摇头公仔]",
+                "price": "499",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-01.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2020-07-06/NEW_XM/G502%E4%B8%BB%E5%AE%B0%E8%80%85.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-02.png",
+                    "https://images.wincheers.net/UpLoad/Web/ProductImg/2019-02-18/NEW_XM/G502-03.png"
+                ]
+            },
+            {
+                "sold":"777",
+                "img": "https://images.wincheers.net/UpLoad/logitech/xx/G903G910sbd-01.png",
+                "name": "罗技G903鼠标+G910机械键盘+充电鼠标垫",
+                "price": "2848",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G903G910sbd-01.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G903G910sbd-02.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G903G910sbd-03.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G903G910sbd-04.png"
+                ]
+            },
+            {
+                "sold":"123",
+                "img": "https://images.wincheers.net/UpLoad/logitech/xx/G502G610G533-01.png",
+                "name": "罗技G502鼠标+G610青轴键盘+6533无线耳机",
+                "price": "1797",
+                "imgarr": [
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G502G610G533-01.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G502G610G533-02.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G502G610G533-03.png",
+                    "https://images.wincheers.net/UpLoad/logitech/xx/G502G610G533-04.png"
+                ]
             }
         ]
-    }
-}
-}]

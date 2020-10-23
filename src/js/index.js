@@ -94,4 +94,3 @@ sliderBox[0].onmouseleave = function(){
     clearInterval(sliderTime);
     sliderTime = setInterval(nextImg,4000);
 }
-$.ajax()

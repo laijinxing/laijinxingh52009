@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车-罗技</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/shoppingcart.css">
+    <link rel="stylesheet" href="./css/pubulic.css">
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    <script src="./lib/jquery/jquery.min.js"></script>
+</head>
+<body>
+    <!-- 点击切换选中类名 -->
+    <!-- <script src="./lib/jquery/jquery.min.js"></script>
+    <script>
+        var labalArr = document.getElementsByClassName('.mn-check')
+        console.log(labalArr)
+    </script> -->
+    <div class="cart-container">
+        <div class="cart-header">
+            <a class="logo" href="/"></a>
+            <div class="step-box"></div>
+        </div>
+        <div id="YesShoppingProduct" hidden = "hidden" style="display: block">
+            <div class="cart-name-title">
+                <span class="page-title">购物车</span>
+                <span>您还差99元包邮，点击
+                    <a href="#">积分兑换包邮卡</a>或点击
+                    <a href="#">凑单</a>
+                </span>
+            </div>
+            <div class="pay-container cart-table-box">
+                <table class="cart-table" id="ShoppingCartList">
+                    <tbody>
+                        <tr>
+                            <th class="first" colspan="2">
+                                <span class="line">
+                                    <label class="mn-check check-all" onclick="Cheked(this)">全选</label>
+                                    <span class="tooltip-span cFreight">还差元包邮
+                                        <a class="together-a" href="javascript:void(0);">凑单</a>
+                                    </span>
+                                </span>
+                            </th>
+                            <th width="140">
+                                <span class="line">单价</span>
+                            </th>
+                            <th width="140">
+                                <span class="line">数量</span>
+                            </th>
+                            <th width="140">
+                                <span class="line">合计</span>
+                            </th>
+                            <th width="140">
+                                <span class="line">操作</span>
+                            </th>
+                        </tr>
+                    </tbody>
+                    <!-- 购物车列表区域 -->
+                </table>
+            </div>
+            <!--价格 start-->
+            <div class="cart-all-price-box">
+                <div class="div-text">
+                    <p>
+                        <span>商品金额
+                            <i>￥</i>
+                            <i id="sumProductPrice" style="padding-left: 0px;">99999</i>
+                        </span>
+                    </p>
+                </div>
+                <div class="price-content">
+                    <span class="check-label-all">
+                        <label class="mn-check  check-all">全选</label>
+                    </span>
+                    <span class="check-all-tool">
+                        <a class="delete-all" href="#">批量删除</a>
+                        <a class="delete-clear" href="#">清空购物车</a>
+                    </span>
+                    <div class="check-all-right">
+                        <span class="check-all-price">
+                            <em>商品总价</em>
+                            <strong style="float: left">￥</strong>
+                            <strong style="float: right" >0</strong>
+                        </span>
+                        <span class="check-all-price" style="margin-left: 10px;">
+                            <em>所需积分</em>
+                            <strong style="float: right" ></strong>
+                            <strong style="float: right; ">0</strong>
+                        </span>
+                        <a class="wg-btn orange-btn sure-result" href="#">确认结算</a>
+                    </div>
+                </div>
+                <div style="width: 100%; text-align: right; margin-top: 8%;">
+                </div>
+                <a class="give-advise" href="javascript:;"></a>
+            </div>
+            <!--价格 end-->
+        </div>
+        <!-- 底部部分 -->
+        <footer class="footer-box">
+            <aside>
+                <div class="container copyright">
+                    <p>罗技官方商城由罗技（中国）科技有限公司授权双齐国际贸易（上海）有限公司负责经营 2017 , all rights reserved</p>
+                    <p>罗技官方网站 联系方式 隐私声明 用户服务协议 沪ICP备10200262号</p>
+                </div>
+                <div class="container copyright" style="padding: 0px 0px 0px 0px">
+                </div>
+            </aside>
+        </footer>
+        <script src="./js/shoppingcart.js"></script>
+</body>
+
+</html>
